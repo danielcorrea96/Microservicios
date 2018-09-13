@@ -1,0 +1,13 @@
+server:
+  contextPath: /negocios
+  port: 8091
+springfox:
+  documentation:
+    swagger:
+      v2:
+        path: /api-docs
+amazon.dynamodb.endpoint: http://localhost:8080
+amazon.aws.accesskey: access
+amazon.aws.secretkey: accesskey
+amazon.s3.endpoint: https://s3.us-east-2.amazonaws.com
+amazon.s3.bucketname: acnproductbucket
